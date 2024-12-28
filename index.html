@@ -18,7 +18,12 @@
         </form>
         <ul id="taskList" role="list" aria-label="Task List"></ul>
         <button id="clearAll" type="button" class="button" aria-label="Clear All Tasks">Clear List</button>
-        <footer>created by DevManSam</footer>
+        <footer>&copy; DevManSam 
+            <span id="year"></span></div>
+            <script>
+                document.getElementById("year").textContent = new Date().getFullYear();
+            </script>
+        </footer>
     </div>
 </body>
 </html>
